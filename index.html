@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khushaalay - Giving & Gratitude for Children</title>
+  <style>
+    /* 🌐 Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* 🌅 Hero Section */
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      animation: fadeInDown 1.5s ease;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      animation: fadeInUp 1.5s ease;
+    }
+    .cta-btn {
+      background: #ff6f61;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+      display: inline-block;
+    }
+    .cta-btn:hover {
+      background: #e65c4f;
+      transform: scale(1.05);
+    }
+
+    /* Sections */
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #ff6f61;
+      position: relative;
+    }
+    section h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background: #ff6f61;
+      display: block;
+      margin: 0.5rem auto;
+      border-radius: 2px;
+    }
+
+    /* 🌱 Features Grid */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .feature-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      text-align: center;
+    }
+    .feature-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+    .feature-box span {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    /* 🌍 For Parents */
+    .parents {
+      text-align: center;
+      font-size: 1.2rem;
+      background: #f8f8f8;
+      border-radius: 15px;
+      padding: 2rem;
+    }
+
+    /* ✅ Final Call */
+    .final-cta {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #ffb347, #ffcc33);
+      color: #333;
+    }
+    .final-cta p {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Sticky Button */
+    .sticky-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #ff6f61;
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+    .sticky-btn:hover {
+      background: #e65c4f;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🌅 Hero -->
+  <header>
+    <h1>Welcome to Khushaalay</h1>
+    <p>A Global Circle of Giving & Gratitude for Children ✨</p>
+    <p><strong>Every Sunday | 1 Hour | Online</strong></p>
+    <a class="cta-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd_ROlnfse5zptR7mQeiCN5xZof3vcghMliYM166pFg8fK4uA/viewform?usp=header" target="_blank">✅ Join Khushaalay</a>
+  </header>
+
+  <!-- 🌟 Why Giving & Gratitude -->
+  <section>
+    <h2>Why Giving & Gratitude?</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      Science shows that <b>gratitude rewires the brain for happiness</b>, 
+      and <b>giving unlocks deeper meaning and connection</b>.  
+      At Khushaalay, children practice these two powerful habits every Sunday—building 
+      emotional strength that lasts a lifetime.
+    </p>
+  </section>
+
+  <!-- 🌱 The Experience -->
+  <section>
+    <h2>The Khushaalay Experience</h2>
+    <div class="features">
+      <div class="feature-box"><span>📖</span> Gratitude Journals & Sharing Circles</div>
+      <div class="feature-box"><span>🤝</span> Giving in Action</div>
+      <div class="feature-box"><span>🧘</span> Meditation for Calm</div>
+      <div class="feature-box"><span>🎮</span> Growth Mindset Games</div>
+      <div class="feature-box"><span>🌍</span> Global Collaboration</div>
+    </div>
+  </section>
+
+  <!-- 👨‍👩‍👧 For Parents -->
+  <section>
+    <h2>For Parents</h2>
+    <div class="parents">
+      <p>
+        Every parent wants their child to be not only <b>successful</b>—but deeply <b>happy</b>.  
+        That’s why we also ask you:  
+      </p>
+      <p><i>“What’s the biggest challenge your child faces today?”</i></p>
+      <p>Your answers help us build meaningful solutions for families worldwide.</p>
+    </div>
+  </section>
+
+  <!-- ✅ Final CTA -->
+  <div class="final-cta">
+    <h2>Join Khushaalay Today</h2>
+    <p>True happiness comes from Giving and Gratitude—everything else is a bonus.  
+    Let’s plant these seeds in our children today, and watch them flourish tomorrow. 🌱</p>
+    <a class="cta-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd_ROlnfse5zptR7mQeiCN5xZof3vcghMliYM166pFg8fK4uA/viewform?usp=header" target="_blank">✅ Yes, I want my child to join</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Khushaalay | Created by Aryan Raj</p>
+  </footer>
+
+  <!-- Sticky Button -->
+  <a class="sticky-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd_ROlnfse5zptR7mQeiCN5xZof3vcghMliYM166pFg8fK4uA/viewform?usp=header" target="_blank">
+    Join Now
+  </a>
+
+</body>
+</html>
